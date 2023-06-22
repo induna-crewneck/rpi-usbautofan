@@ -1,5 +1,5 @@
 # usbautofan
-USB Fan Automation for Raspberry Pi
+USB Fan Automation for Raspberry Pi. Rudimentary script to turn a Fan connected via USB on and off based on CPU temperature
 
 ## Hardware Requirements
 * Raspberry Pi
