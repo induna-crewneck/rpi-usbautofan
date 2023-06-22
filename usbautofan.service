@@ -1,0 +1,9 @@
+[Unit]
+Description=USB Fan Automation
+After=mult-user.target
+
+[Service]
+ExecStart=/usr/bin/env python3 /root/usbautofan/usbautofan.py
+
+[Install]
+WantedBy=multi-user.target
