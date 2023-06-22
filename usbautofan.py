@@ -10,7 +10,7 @@ from pathlib import Path
 # define Variables -------------------------------------------------------------------------------
 logfile = Path('log.txt')
 maxtemp = 60	#degrees C (default = 60)
-mintemp = 55	#degrees C (default = 55)
+mintemp = 50	#degrees C (default = 50)
 intervall = 60	#seconds
 
 # define functions -------------------------------------------------------------------------------
