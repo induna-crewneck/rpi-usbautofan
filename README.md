@@ -26,7 +26,7 @@ If that command works for you, you don't need to change anything in the python s
 ### Installation
 1. Download `usbautofan.py` and place it in `/root/usbautofan/`
    - Change uhubctl command if needed (see Targeting section)
-   - (Optional) If you want to, you can change the maxtemp and mintemp variables. The numbers are degrees C without decimals. maxtemp determines when the Fan will turn on while mintemp will determine when it turns off.
+   - (Optional) If you want to, you can change the maxtemp and mintemp variables. The numbers are degrees C without decimals. maxtemp determines when the Fan will turn on while mintemp will determine when it turns off. Between the two no action will be done. You can also change the intervall if you would like the process to check more/less often.
 2. Run `sudo nano /etc/systemd/system/usbautofan.service` and paste this:
 ```
 [Unit]
